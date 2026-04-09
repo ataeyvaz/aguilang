@@ -1,0 +1,384 @@
+{
+  "category": "animals",
+  "level": "a1",
+  "translations": {
+    "en": {
+      "label": "English",
+      "flag": "🇬🇧",
+      "words": [
+        {
+          "id": "cat",
+          "emoji": "🐱",
+          "word": "cat",
+          "tr": "kedi",
+          "pron": "kæt",
+          "level": "a1"
+        },
+        {
+          "id": "dog",
+          "emoji": "🐶",
+          "word": "dog",
+          "tr": "köpek",
+          "pron": "dɒɡ",
+          "level": "a1"
+        },
+        {
+          "id": "fish",
+          "emoji": "🐟",
+          "word": "fish",
+          "tr": "balık",
+          "pron": "fɪʃ",
+          "level": "a1"
+        },
+        {
+          "id": "bird",
+          "emoji": "🐦",
+          "word": "bird",
+          "tr": "kuş",
+          "pron": "bɜːd",
+          "level": "a1"
+        },
+        {
+          "id": "rabbit",
+          "emoji": "🐰",
+          "word": "rabbit",
+          "tr": "tavşan",
+          "pron": "ˈræbɪt",
+          "level": "a1"
+        },
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "word": "horse",
+          "tr": "at",
+          "pron": "hɔːs",
+          "level": "a1"
+        },
+        {
+          "id": "cow",
+          "emoji": "🐮",
+          "word": "cow",
+          "tr": "inek",
+          "pron": "kaʊ",
+          "level": "a1"
+        },
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "word": "sheep",
+          "tr": "koyun",
+          "pron": "ʃiːp",
+          "level": "a1"
+        },
+        {
+          "id": "pig",
+          "emoji": "🐷",
+          "word": "pig",
+          "tr": "domuz",
+          "pron": "pɪɡ",
+          "level": "a1"
+        },
+        {
+          "id": "duck",
+          "emoji": "🦆",
+          "word": "duck",
+          "tr": "ördek",
+          "pron": "dʌk",
+          "level": "a1"
+        },
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "word": "frog",
+          "tr": "kurbağa",
+          "pron": "frɒɡ",
+          "level": "a1"
+        },
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "word": "lion",
+          "tr": "aslan",
+          "pron": "ˈlaɪən",
+          "level": "a1"
+        },
+        {
+          "id": "elephant",
+          "emoji": "🐘",
+          "word": "elephant",
+          "tr": "fil",
+          "pron": "ˈelɪfənt",
+          "level": "a1"
+        },
+        {
+          "id": "monkey",
+          "emoji": "🐒",
+          "word": "monkey",
+          "tr": "maymun",
+          "pron": "ˈmʌŋki",
+          "level": "a1"
+        },
+        {
+          "id": "snake",
+          "emoji": "🐍",
+          "word": "snake",
+          "tr": "yılan",
+          "pron": "sneɪk",
+          "level": "a1"
+        }
+      ]
+    },
+    "de": {
+      "label": "Deutsch",
+      "flag": "🇩🇪",
+      "words": [
+        {
+          "id": "cat",
+          "emoji": "🐱",
+          "word": "Katze",
+          "tr": "kedi",
+          "pron": "ˈkatsə",
+          "level": "a1"
+        },
+        {
+          "id": "dog",
+          "emoji": "🐶",
+          "word": "Hund",
+          "tr": "köpek",
+          "pron": "hʊnt",
+          "level": "a1"
+        },
+        {
+          "id": "fish",
+          "emoji": "🐟",
+          "word": "Fisch",
+          "tr": "balık",
+          "pron": "fɪʃ",
+          "level": "a1"
+        },
+        {
+          "id": "bird",
+          "emoji": "🐦",
+          "word": "Vogel",
+          "tr": "kuş",
+          "pron": "ˈfoːɡəl",
+          "level": "a1"
+        },
+        {
+          "id": "rabbit",
+          "emoji": "🐰",
+          "word": "Hase",
+          "tr": "tavşan",
+          "pron": "ˈhaːzə",
+          "level": "a1"
+        },
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "word": "Pferd",
+          "tr": "at",
+          "pron": "pfeːɐt",
+          "level": "a1"
+        },
+        {
+          "id": "cow",
+          "emoji": "🐮",
+          "word": "Kuh",
+          "tr": "inek",
+          "pron": "kuː",
+          "level": "a1"
+        },
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "word": "Schaf",
+          "tr": "koyun",
+          "pron": "ʃaːf",
+          "level": "a1"
+        },
+        {
+          "id": "pig",
+          "emoji": "🐷",
+          "word": "Schwein",
+          "tr": "domuz",
+          "pron": "ʃvaɪn",
+          "level": "a1"
+        },
+        {
+          "id": "duck",
+          "emoji": "🦆",
+          "word": "Ente",
+          "tr": "ördek",
+          "pron": "ˈɛntə",
+          "level": "a1"
+        },
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "word": "Frosch",
+          "tr": "kurbağa",
+          "pron": "frɔʃ",
+          "level": "a1"
+        },
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "word": "Löwe",
+          "tr": "aslan",
+          "pron": "ˈløːvə",
+          "level": "a1"
+        },
+        {
+          "id": "elephant",
+          "emoji": "🐘",
+          "word": "Elefant",
+          "tr": "fil",
+          "pron": "ˌeləˈfant",
+          "level": "a1"
+        },
+        {
+          "id": "monkey",
+          "emoji": "🐒",
+          "word": "Affe",
+          "tr": "maymun",
+          "pron": "ˈafə",
+          "level": "a1"
+        },
+        {
+          "id": "snake",
+          "emoji": "🐍",
+          "word": "Schlange",
+          "tr": "yılan",
+          "pron": "ˈʃlaŋə",
+          "level": "a1"
+        }
+      ]
+    },
+    "es": {
+      "label": "Español",
+      "flag": "🇪🇸",
+      "words": [
+        {
+          "id": "cat",
+          "emoji": "🐱",
+          "word": "gato",
+          "tr": "kedi",
+          "pron": "ˈɡato",
+          "level": "a1"
+        },
+        {
+          "id": "dog",
+          "emoji": "🐶",
+          "word": "perro",
+          "tr": "köpek",
+          "pron": "ˈpero",
+          "level": "a1"
+        },
+        {
+          "id": "fish",
+          "emoji": "🐟",
+          "word": "pez",
+          "tr": "balık",
+          "pron": "peθ",
+          "level": "a1"
+        },
+        {
+          "id": "bird",
+          "emoji": "🐦",
+          "word": "pájaro",
+          "tr": "kuş",
+          "pron": "ˈpaxaro",
+          "level": "a1"
+        },
+        {
+          "id": "rabbit",
+          "emoji": "🐰",
+          "word": "conejo",
+          "tr": "tavşan",
+          "pron": "koˈnexo",
+          "level": "a1"
+        },
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "word": "caballo",
+          "tr": "at",
+          "pron": "kaˈβaʎo",
+          "level": "a1"
+        },
+        {
+          "id": "cow",
+          "emoji": "🐮",
+          "word": "vaca",
+          "tr": "inek",
+          "pron": "ˈbaka",
+          "level": "a1"
+        },
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "word": "oveja",
+          "tr": "koyun",
+          "pron": "oˈβexa",
+          "level": "a1"
+        },
+        {
+          "id": "pig",
+          "emoji": "🐷",
+          "word": "cerdo",
+          "tr": "domuz",
+          "pron": "ˈθerðo",
+          "level": "a1"
+        },
+        {
+          "id": "duck",
+          "emoji": "🦆",
+          "word": "pato",
+          "tr": "ördek",
+          "pron": "ˈpato",
+          "level": "a1"
+        },
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "word": "rana",
+          "tr": "kurbağa",
+          "pron": "ˈrana",
+          "level": "a1"
+        },
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "word": "león",
+          "tr": "aslan",
+          "pron": "leˈon",
+          "level": "a1"
+        },
+        {
+          "id": "elephant",
+          "emoji": "🐘",
+          "word": "elefante",
+          "tr": "fil",
+          "pron": "eleˈfante",
+          "level": "a1"
+        },
+        {
+          "id": "monkey",
+          "emoji": "🐒",
+          "word": "mono",
+          "tr": "maymun",
+          "pron": "ˈmono",
+          "level": "a1"
+        },
+        {
+          "id": "snake",
+          "emoji": "🐍",
+          "word": "serpiente",
+          "tr": "yılan",
+          "pron": "serˈpjente",
+          "level": "a1"
+        }
+      ]
+    }
+  }
+}

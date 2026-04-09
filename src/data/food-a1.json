@@ -1,0 +1,552 @@
+{
+  "category": "food",
+  "level": "a1",
+  "translations": {
+    "en": {
+      "label": "English",
+      "flag": "🇬🇧",
+      "words": [
+        {
+          "id": "bread",
+          "emoji": "🍞",
+          "word": "bread",
+          "tr": "ekmek",
+          "pron": "brɛd",
+          "level": "a1"
+        },
+        {
+          "id": "milk",
+          "emoji": "🥛",
+          "word": "milk",
+          "tr": "süt",
+          "pron": "mɪlk",
+          "level": "a1"
+        },
+        {
+          "id": "egg",
+          "emoji": "🥚",
+          "word": "egg",
+          "tr": "yumurta",
+          "pron": "ɛɡ",
+          "level": "a1"
+        },
+        {
+          "id": "cheese",
+          "emoji": "🧀",
+          "word": "cheese",
+          "tr": "peynir",
+          "pron": "tʃiːz",
+          "level": "a1"
+        },
+        {
+          "id": "pizza",
+          "emoji": "🍕",
+          "word": "pizza",
+          "tr": "pizza",
+          "pron": "ˈpiːtsə",
+          "level": "a1"
+        },
+        {
+          "id": "rice",
+          "emoji": "🍚",
+          "word": "rice",
+          "tr": "pirinç",
+          "pron": "raɪs",
+          "level": "a1"
+        },
+        {
+          "id": "soup",
+          "emoji": "🍲",
+          "word": "soup",
+          "tr": "çorba",
+          "pron": "suːp",
+          "level": "a1"
+        },
+        {
+          "id": "cake",
+          "emoji": "🎂",
+          "word": "cake",
+          "tr": "pasta",
+          "pron": "keɪk",
+          "level": "a1"
+        },
+        {
+          "id": "cookie",
+          "emoji": "🍪",
+          "word": "cookie",
+          "tr": "bisküvi",
+          "pron": "ˈkʊki",
+          "level": "a1"
+        },
+        {
+          "id": "icecream",
+          "emoji": "🍦",
+          "word": "ice cream",
+          "tr": "dondurma",
+          "pron": "ˈaɪskriːm",
+          "level": "a1"
+        },
+        {
+          "id": "sandwich",
+          "emoji": "🥪",
+          "word": "sandwich",
+          "tr": "sandviç",
+          "pron": "ˈsænwɪdʒ",
+          "level": "a1"
+        },
+        {
+          "id": "pasta",
+          "emoji": "🍝",
+          "word": "pasta",
+          "tr": "makarna",
+          "pron": "ˈpæstə",
+          "level": "a1"
+        },
+        {
+          "id": "butter",
+          "emoji": "🧈",
+          "word": "butter",
+          "tr": "tereyağı",
+          "pron": "ˈbʌtər",
+          "level": "a1"
+        },
+        {
+          "id": "chicken",
+          "emoji": "🍗",
+          "word": "chicken",
+          "tr": "tavuk",
+          "pron": "ˈtʃɪkɪn",
+          "level": "a1"
+        },
+        {
+          "id": "chocolate",
+          "emoji": "🍫",
+          "word": "chocolate",
+          "tr": "çikolata",
+          "pron": "ˈtʃɒklət",
+          "level": "a1"
+        },
+        {
+          "id": "coffee",
+          "emoji": "☕",
+          "word": "coffee",
+          "tr": "kahve",
+          "pron": "ˈkɒfi",
+          "level": "a1"
+        },
+        {
+          "id": "juice",
+          "emoji": "🧃",
+          "word": "juice",
+          "tr": "meyve suyu",
+          "pron": "dʒuːs",
+          "level": "a1"
+        },
+        {
+          "id": "meat",
+          "emoji": "🥩",
+          "word": "meat",
+          "tr": "et",
+          "pron": "miːt",
+          "level": "a1"
+        },
+        {
+          "id": "salad",
+          "emoji": "🥗",
+          "word": "salad",
+          "tr": "salata",
+          "pron": "ˈsæləd",
+          "level": "a1"
+        },
+        {
+          "id": "salt",
+          "emoji": "🧂",
+          "word": "salt",
+          "tr": "tuz",
+          "pron": "sɔːlt",
+          "level": "a1"
+        },
+        {
+          "id": "sugar",
+          "emoji": "🍬",
+          "word": "sugar",
+          "tr": "şeker",
+          "pron": "ˈʃʊɡər",
+          "level": "a1"
+        },
+        {
+          "id": "tea",
+          "emoji": "🍵",
+          "word": "tea",
+          "tr": "çay",
+          "pron": "tiː",
+          "level": "a1"
+        }
+      ]
+    },
+    "de": {
+      "label": "Deutsch",
+      "flag": "🇩🇪",
+      "words": [
+        {
+          "id": "bread",
+          "emoji": "🍞",
+          "word": "Brot",
+          "tr": "ekmek",
+          "pron": "broːt",
+          "level": "a1"
+        },
+        {
+          "id": "milk",
+          "emoji": "🥛",
+          "word": "Milch",
+          "tr": "süt",
+          "pron": "mɪlç",
+          "level": "a1"
+        },
+        {
+          "id": "egg",
+          "emoji": "🥚",
+          "word": "Ei",
+          "tr": "yumurta",
+          "pron": "aɪ",
+          "level": "a1"
+        },
+        {
+          "id": "cheese",
+          "emoji": "🧀",
+          "word": "Käse",
+          "tr": "peynir",
+          "pron": "ˈkɛːzə",
+          "level": "a1"
+        },
+        {
+          "id": "pizza",
+          "emoji": "🍕",
+          "word": "Pizza",
+          "tr": "pizza",
+          "pron": "ˈpɪtsa",
+          "level": "a1"
+        },
+        {
+          "id": "rice",
+          "emoji": "🍚",
+          "word": "Reis",
+          "tr": "pirinç",
+          "pron": "raɪs",
+          "level": "a1"
+        },
+        {
+          "id": "soup",
+          "emoji": "🍲",
+          "word": "Suppe",
+          "tr": "çorba",
+          "pron": "ˈzʊpə",
+          "level": "a1"
+        },
+        {
+          "id": "cake",
+          "emoji": "🎂",
+          "word": "Kuchen",
+          "tr": "pasta",
+          "pron": "ˈkuːxən",
+          "level": "a1"
+        },
+        {
+          "id": "cookie",
+          "emoji": "🍪",
+          "word": "Keks",
+          "tr": "bisküvi",
+          "pron": "keːks",
+          "level": "a1"
+        },
+        {
+          "id": "icecream",
+          "emoji": "🍦",
+          "word": "Eis",
+          "tr": "dondurma",
+          "pron": "aɪs",
+          "level": "a1"
+        },
+        {
+          "id": "sandwich",
+          "emoji": "🥪",
+          "word": "Sandwich",
+          "tr": "sandviç",
+          "pron": "ˈzɛndvɪtʃ",
+          "level": "a1"
+        },
+        {
+          "id": "pasta",
+          "emoji": "🍝",
+          "word": "Nudeln",
+          "tr": "makarna",
+          "pron": "ˈnuːdəln",
+          "level": "a1"
+        },
+        {
+          "id": "butter",
+          "emoji": "🧈",
+          "word": "Butter",
+          "tr": "tereyağı",
+          "pron": "ˈbʊtər",
+          "level": "a1"
+        },
+        {
+          "id": "chicken",
+          "emoji": "🍗",
+          "word": "Hähnchen",
+          "tr": "tavuk",
+          "pron": "ˈhɛːnçən",
+          "level": "a1"
+        },
+        {
+          "id": "chocolate",
+          "emoji": "🍫",
+          "word": "Schokolade",
+          "tr": "çikolata",
+          "pron": "ʃokoˈlaːdə",
+          "level": "a1"
+        },
+        {
+          "id": "coffee",
+          "emoji": "☕",
+          "word": "Kaffee",
+          "tr": "kahve",
+          "pron": "ˈkafe",
+          "level": "a1"
+        },
+        {
+          "id": "juice",
+          "emoji": "🧃",
+          "word": "Saft",
+          "tr": "meyve suyu",
+          "pron": "zaft",
+          "level": "a1"
+        },
+        {
+          "id": "meat",
+          "emoji": "🥩",
+          "word": "Fleisch",
+          "tr": "et",
+          "pron": "flaɪʃ",
+          "level": "a1"
+        },
+        {
+          "id": "salad",
+          "emoji": "🥗",
+          "word": "Salat",
+          "tr": "salata",
+          "pron": "zaˈlaːt",
+          "level": "a1"
+        },
+        {
+          "id": "salt",
+          "emoji": "🧂",
+          "word": "Salz",
+          "tr": "tuz",
+          "pron": "zalts",
+          "level": "a1"
+        },
+        {
+          "id": "sugar",
+          "emoji": "🍬",
+          "word": "Zucker",
+          "tr": "şeker",
+          "pron": "ˈtsʊkər",
+          "level": "a1"
+        },
+        {
+          "id": "tea",
+          "emoji": "🍵",
+          "word": "Tee",
+          "tr": "çay",
+          "pron": "teː",
+          "level": "a1"
+        }
+      ]
+    },
+    "es": {
+      "label": "Español",
+      "flag": "🇪🇸",
+      "words": [
+        {
+          "id": "bread",
+          "emoji": "🍞",
+          "word": "pan",
+          "tr": "ekmek",
+          "pron": "pan",
+          "level": "a1"
+        },
+        {
+          "id": "milk",
+          "emoji": "🥛",
+          "word": "leche",
+          "tr": "süt",
+          "pron": "ˈletʃe",
+          "level": "a1"
+        },
+        {
+          "id": "egg",
+          "emoji": "🥚",
+          "word": "huevo",
+          "tr": "yumurta",
+          "pron": "ˈweβo",
+          "level": "a1"
+        },
+        {
+          "id": "cheese",
+          "emoji": "🧀",
+          "word": "queso",
+          "tr": "peynir",
+          "pron": "ˈkeso",
+          "level": "a1"
+        },
+        {
+          "id": "pizza",
+          "emoji": "🍕",
+          "word": "pizza",
+          "tr": "pizza",
+          "pron": "ˈpitsa",
+          "level": "a1"
+        },
+        {
+          "id": "rice",
+          "emoji": "🍚",
+          "word": "arroz",
+          "tr": "pirinç",
+          "pron": "aˈroθ",
+          "level": "a1"
+        },
+        {
+          "id": "soup",
+          "emoji": "🍲",
+          "word": "sopa",
+          "tr": "çorba",
+          "pron": "ˈsopa",
+          "level": "a1"
+        },
+        {
+          "id": "cake",
+          "emoji": "🎂",
+          "word": "pastel",
+          "tr": "pasta",
+          "pron": "pasˈtel",
+          "level": "a1"
+        },
+        {
+          "id": "cookie",
+          "emoji": "🍪",
+          "word": "galleta",
+          "tr": "bisküvi",
+          "pron": "ɡaˈʎeta",
+          "level": "a1"
+        },
+        {
+          "id": "icecream",
+          "emoji": "🍦",
+          "word": "helado",
+          "tr": "dondurma",
+          "pron": "eˈlaðo",
+          "level": "a1"
+        },
+        {
+          "id": "sandwich",
+          "emoji": "🥪",
+          "word": "sándwich",
+          "tr": "sandviç",
+          "pron": "ˈsandwitʃ",
+          "level": "a1"
+        },
+        {
+          "id": "pasta",
+          "emoji": "🍝",
+          "word": "fideos",
+          "tr": "makarna",
+          "pron": "fiˈðeos",
+          "level": "a1"
+        },
+        {
+          "id": "butter",
+          "emoji": "🧈",
+          "word": "mantequilla",
+          "tr": "tereyağı",
+          "pron": "manteˈkiʎa",
+          "level": "a1"
+        },
+        {
+          "id": "chicken",
+          "emoji": "🍗",
+          "word": "pollo",
+          "tr": "tavuk",
+          "pron": "ˈpoʎo",
+          "level": "a1"
+        },
+        {
+          "id": "chocolate",
+          "emoji": "🍫",
+          "word": "chocolate",
+          "tr": "çikolata",
+          "pron": "tʃokoˈlate",
+          "level": "a1"
+        },
+        {
+          "id": "coffee",
+          "emoji": "☕",
+          "word": "café",
+          "tr": "kahve",
+          "pron": "kaˈfe",
+          "level": "a1"
+        },
+        {
+          "id": "juice",
+          "emoji": "🧃",
+          "word": "zumo",
+          "tr": "meyve suyu",
+          "pron": "ˈθumo",
+          "level": "a1"
+        },
+        {
+          "id": "meat",
+          "emoji": "🥩",
+          "word": "carne",
+          "tr": "et",
+          "pron": "ˈkarne",
+          "level": "a1"
+        },
+        {
+          "id": "salad",
+          "emoji": "🥗",
+          "word": "ensalada",
+          "tr": "salata",
+          "pron": "ensaˈlaða",
+          "level": "a1"
+        },
+        {
+          "id": "salt",
+          "emoji": "🧂",
+          "word": "sal",
+          "tr": "tuz",
+          "pron": "sal",
+          "level": "a1"
+        },
+        {
+          "id": "sugar",
+          "emoji": "🍬",
+          "word": "azúcar",
+          "tr": "şeker",
+          "pron": "aˈθukar",
+          "level": "a1"
+        },
+        {
+          "id": "tea",
+          "emoji": "🍵",
+          "word": "té",
+          "tr": "çay",
+          "pron": "te",
+          "level": "a1"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#085041"/>
+  <text x="256" y="320" font-size="300" text-anchor="middle" font-family="Segoe UI Emoji, Apple Color Emoji, sans-serif">🦅</text>
+  <text x="256" y="460" font-size="72" font-weight="bold" text-anchor="middle" font-family="Arial, sans-serif" fill="#1D9E75" letter-spacing="4">AguiLang</text>
+</svg>

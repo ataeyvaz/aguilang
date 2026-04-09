@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+@theme {
+  /* ── Açık tema — Stitch design system ── */
+  --color-surface:                   #EEF7FF;
+  --color-surface-dim:               #dce8f8;
+  --color-surface-bright:            #ffffff;
+  --color-surface-container-lowest:  #ffffff;
+  --color-surface-container-low:     #f0f6fd;
+  --color-surface-container:         #e4eef9;
+  --color-surface-container-high:    #d5e4f4;
+  --color-surface-container-highest: #c4d8ee;
+
+  --color-primary:            #00687e;
+  --color-primary-dim:        #005668;
+  --color-primary-container:  #b3e4ef;
+  --color-on-primary:         #ffffff;
+  --color-on-primary-fixed:   #001f26;
+
+  --color-secondary:           #9c4600;
+  --color-secondary-dim:       #7a3600;
+  --color-secondary-container: #ffdcc2;
+  --color-on-secondary:        #ffffff;
+
+  --color-tertiary:            #5c5d00;
+  --color-tertiary-container:  #e2e388;
+  --color-on-tertiary:         #ffffff;
+
+  --color-on-surface:         #0d1b2a;
+  --color-on-surface-variant: #4a6572;
+  --color-outline:            #6b8fa1;
+  --color-outline-variant:    #c0d8e4;
+
+  --color-error:              #ba1a1a;
+  --color-error-container:    #ffdad6;
+  --color-on-error:           #ffffff;
+
+  /* ── Eski forest renkleri (uyumluluk için) ── */
+  --color-forest-800: #085041;
+  --color-forest-700: #0a6b57;
+  --color-forest-600: #0d8a6e;
+  --color-forest-400: #1D9E75;
+  --color-forest-200: #a7f3d0;
+  --color-forest-100: #d1fae5;
+
+  /* ── Fontlar ── */
+  --font-fredoka:   'Fredoka One', cursive;
+  --font-nunito:    'Nunito', sans-serif;
+  --font-headline:  'Baloo 2', 'Plus Jakarta Sans', sans-serif;
+  --font-body:      'Be Vietnam Pro', sans-serif;
+  --font-label:     'Be Vietnam Pro', sans-serif;
+}
+
+/* ── Material Symbols ── */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  -webkit-font-smoothing: antialiased;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Be Vietnam Pro', 'Nunito', sans-serif;
+  background: #dbe9f4;
+  min-height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#root {
+  width: 100%;
+  max-width: 430px;
+  min-height: 100svh;
+  background: #EEF7FF;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  /*
+   * transform: translateZ(0) bir containing block oluşturur.
+   * Böylece child sayfalardaki tüm position:fixed elementler
+   * viewport yerine bu 430px container'a göre konumlanır.
+   * Hiçbir child sayfaya dokunmadan fixed nav/header'lar
+   * otomatik olarak 430px içinde kalır.
+   */
+  transform: translateZ(0);
+}
+
+/* ── Büyük ekranda hafif gölge + padding ── */
+@media (min-width: 640px) {
+  body { padding: 1.5rem 0; align-items: center; }
+  #root {
+    min-height: calc(100svh - 3rem);
+    border-radius: 2rem;
+    box-shadow: 0 20px 80px rgba(0, 80, 120, 0.18);
+  }
+}
+
+@keyframes confetti-fall {
+  0%   { transform: translateY(0)    rotate(0deg);   opacity: 1 }
+  100% { transform: translateY(105vh) rotate(540deg); opacity: 0 }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0) }
+  20%      { transform: translateX(-8px) }
+  40%      { transform: translateX(8px) }
+  60%      { transform: translateX(-5px) }
+  80%      { transform: translateX(5px) }
+}
+
+.shake { animation: shake 0.4s ease-in-out }

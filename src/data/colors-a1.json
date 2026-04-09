@@ -1,0 +1,312 @@
+{
+  "category": "colors",
+  "level": "a1",
+  "translations": {
+    "en": {
+      "label": "English",
+      "flag": "🇬🇧",
+      "words": [
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "word": "red",
+          "tr": "kırmızı",
+          "pron": "rɛd",
+          "level": "a1"
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "word": "blue",
+          "tr": "mavi",
+          "pron": "bluː",
+          "level": "a1"
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "word": "green",
+          "tr": "yeşil",
+          "pron": "ɡriːn",
+          "level": "a1"
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "word": "yellow",
+          "tr": "sarı",
+          "pron": "ˈjɛloʊ",
+          "level": "a1"
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "word": "orange",
+          "tr": "turuncu",
+          "pron": "ˈɒrɪndʒ",
+          "level": "a1"
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "word": "purple",
+          "tr": "mor",
+          "pron": "ˈpɜːpəl",
+          "level": "a1"
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "word": "pink",
+          "tr": "pembe",
+          "pron": "pɪŋk",
+          "level": "a1"
+        },
+        {
+          "id": "white",
+          "emoji": "⬜",
+          "word": "white",
+          "tr": "beyaz",
+          "pron": "waɪt",
+          "level": "a1"
+        },
+        {
+          "id": "black",
+          "emoji": "⬛",
+          "word": "black",
+          "tr": "siyah",
+          "pron": "blæk",
+          "level": "a1"
+        },
+        {
+          "id": "brown",
+          "emoji": "🟫",
+          "word": "brown",
+          "tr": "kahverengi",
+          "pron": "braʊn",
+          "level": "a1"
+        },
+        {
+          "id": "gray",
+          "emoji": "🩶",
+          "word": "gray",
+          "tr": "gri",
+          "pron": "ɡreɪ",
+          "level": "a1"
+        },
+        {
+          "id": "gold",
+          "emoji": "🏅",
+          "word": "gold",
+          "tr": "altın",
+          "pron": "ɡoʊld",
+          "level": "a1"
+        }
+      ]
+    },
+    "de": {
+      "label": "Deutsch",
+      "flag": "🇩🇪",
+      "words": [
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "word": "rot",
+          "tr": "kırmızı",
+          "pron": "roːt",
+          "level": "a1"
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "word": "blau",
+          "tr": "mavi",
+          "pron": "blaʊ",
+          "level": "a1"
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "word": "grün",
+          "tr": "yeşil",
+          "pron": "ɡryːn",
+          "level": "a1"
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "word": "gelb",
+          "tr": "sarı",
+          "pron": "ɡɛlp",
+          "level": "a1"
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "word": "orange",
+          "tr": "turuncu",
+          "pron": "oˈraŋʒ",
+          "level": "a1"
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "word": "lila",
+          "tr": "mor",
+          "pron": "ˈliːla",
+          "level": "a1"
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "word": "rosa",
+          "tr": "pembe",
+          "pron": "ˈroːza",
+          "level": "a1"
+        },
+        {
+          "id": "white",
+          "emoji": "⬜",
+          "word": "weiß",
+          "tr": "beyaz",
+          "pron": "vaɪs",
+          "level": "a1"
+        },
+        {
+          "id": "black",
+          "emoji": "⬛",
+          "word": "schwarz",
+          "tr": "siyah",
+          "pron": "ʃvarts",
+          "level": "a1"
+        },
+        {
+          "id": "brown",
+          "emoji": "🟫",
+          "word": "braun",
+          "tr": "kahverengi",
+          "pron": "braʊn",
+          "level": "a1"
+        },
+        {
+          "id": "gray",
+          "emoji": "🩶",
+          "word": "grau",
+          "tr": "gri",
+          "pron": "ɡraʊ",
+          "level": "a1"
+        },
+        {
+          "id": "gold",
+          "emoji": "🏅",
+          "word": "Gold",
+          "tr": "altın",
+          "pron": "ɡɔlt",
+          "level": "a1"
+        }
+      ]
+    },
+    "es": {
+      "label": "Español",
+      "flag": "🇪🇸",
+      "words": [
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "word": "rojo",
+          "tr": "kırmızı",
+          "pron": "ˈroxo",
+          "level": "a1"
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "word": "azul",
+          "tr": "mavi",
+          "pron": "aˈθul",
+          "level": "a1"
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "word": "verde",
+          "tr": "yeşil",
+          "pron": "ˈberde",
+          "level": "a1"
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "word": "amarillo",
+          "tr": "sarı",
+          "pron": "amaˈriʎo",
+          "level": "a1"
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "word": "naranja",
+          "tr": "turuncu",
+          "pron": "naˈranxa",
+          "level": "a1"
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "word": "morado",
+          "tr": "mor",
+          "pron": "moˈraðo",
+          "level": "a1"
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "word": "rosa",
+          "tr": "pembe",
+          "pron": "ˈrosa",
+          "level": "a1"
+        },
+        {
+          "id": "white",
+          "emoji": "⬜",
+          "word": "blanco",
+          "tr": "beyaz",
+          "pron": "ˈblanko",
+          "level": "a1"
+        },
+        {
+          "id": "black",
+          "emoji": "⬛",
+          "word": "negro",
+          "tr": "siyah",
+          "pron": "ˈneɣro",
+          "level": "a1"
+        },
+        {
+          "id": "brown",
+          "emoji": "🟫",
+          "word": "marrón",
+          "tr": "kahverengi",
+          "pron": "maˈron",
+          "level": "a1"
+        },
+        {
+          "id": "gray",
+          "emoji": "🩶",
+          "word": "gris",
+          "tr": "gri",
+          "pron": "ɡris",
+          "level": "a1"
+        },
+        {
+          "id": "gold",
+          "emoji": "🏅",
+          "word": "dorado",
+          "tr": "altın",
+          "pron": "doˈraðo",
+          "level": "a1"
+        }
+      ]
+    }
+  }
+}
