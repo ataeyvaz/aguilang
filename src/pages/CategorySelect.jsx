@@ -1,4 +1,5 @@
 import { CATEGORIES } from '../data/categories'
+import { readActiveCategories } from '../hooks/useParentControls'
 
 const CARD_COLORS = {
   animals:    { bg: '#e8f5e9', border: '#a5d6a7', accent: '#2e7d32' },
@@ -42,6 +43,10 @@ const NAV = [
 export default function CategorySelect({ profile, lang, onSelectCategory, onNavigate, onBack }) {
   const langLabels = { en: 'English', de: 'Deutsch', es: 'Español' }
   const langFlags  = { en: '🇬🇧', de: '🇩🇪', es: '🇪🇸' }
+
+  // Sadece ebeveynin aktif bıraktığı kategorileri göster
+  const activeIds = readActiveCategories()
+  const visibleCategories = CATEGORIES.filter(c => activeIds.includes(c.id))
 
   return (
     <div style={{
@@ -107,7 +112,7 @@ export default function CategorySelect({ profile, lang, onSelectCategory, onNavi
           gridTemplateColumns: 'repeat(2, minmax(0, 1fr))',
           gap: 10, alignContent: 'start',
         }}>
-        {CATEGORIES.map(cat => {
+        {visibleCategories.map(cat => {
           const c = CARD_COLORS[cat.id] ?? { bg: '#f5f5f5', border: '#e0e0e0', accent: '#666' }
           const count = wordCount(cat)
           return (

@@ -1,4 +1,6 @@
-const LANGUAGES = [
+import { readLangSettings } from '../hooks/useParentControls'
+
+const ALL_LANGUAGES = [
   {
     id: 'en',
     flagCode: 'gb',
@@ -32,6 +34,15 @@ const LANGUAGES = [
 ]
 
 export default function LanguageSelect({ profile, onSelectLang, onBack }) {
+  // Sadece aktif dilleri göster, öncelikliyi ilk sıraya al
+  const langSettings = readLangSettings()
+  const LANGUAGES = ALL_LANGUAGES
+    .filter(l => langSettings.enabled.includes(l.id))
+    .sort((a, b) => {
+      if (a.id === langSettings.priority) return -1
+      if (b.id === langSettings.priority) return 1
+      return 0
+    })
   return (
     <div style={{
       minHeight: '100vh',

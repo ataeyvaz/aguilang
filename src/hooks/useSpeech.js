@@ -5,6 +5,7 @@ const LANG_MAP = {
   en: 'en-GB',
   de: 'de-DE',
   es: 'es-ES',
+  tr: 'tr-TR',
 }
 
 /**
@@ -18,20 +19,36 @@ export function useSpeech(langId) {
   const [isSpeaking, setIsSpeaking] = useState(false)
   const ttsSupported = typeof window !== 'undefined' && 'speechSynthesis' in window
 
-  const speak = useCallback((text, { rate, pitch = 1.1 } = {}) => {
+  const speak = useCallback((text, { rate, pitch = 1.1, lang } = {}) => {
     if (!ttsSupported) return
     const settings = readSettings()
     if (settings.ttsEnabled === false) return
-    const finalRate = rate ?? settings.ttsRate ?? 0.9
-    window.speechSynthesis.cancel()
-    const utt = new SpeechSynthesisUtterance(text)
-    utt.lang = locale
-    utt.rate = finalRate
-    utt.pitch = pitch
-    utt.onstart = () => setIsSpeaking(true)
-    utt.onend = () => setIsSpeaking(false)
-    utt.onerror = () => setIsSpeaking(false)
-    window.speechSynthesis.speak(utt)
+    const finalRate = rate ?? settings.ttsRate ?? 0.85
+    const finalLang = lang ?? locale
+
+    const trySpeak = () => {
+      const voices = window.speechSynthesis.getVoices()
+      if (voices.length === 0) {
+        window.speechSynthesis.onvoiceschanged = () => {
+          window.speechSynthesis.onvoiceschanged = null
+          trySpeak()
+        }
+        return
+      }
+      const utt = new SpeechSynthesisUtterance(text)
+      utt.lang = finalLang
+      const voice = voices.find(v => v.lang.startsWith(finalLang.split('-')[0]))
+      if (voice) utt.voice = voice
+      utt.rate = finalRate
+      utt.pitch = pitch
+      utt.onstart = () => setIsSpeaking(true)
+      utt.onend   = () => setIsSpeaking(false)
+      utt.onerror = () => setIsSpeaking(false)
+      window.speechSynthesis.cancel()
+      window.speechSynthesis.speak(utt)
+    }
+
+    trySpeak()
   }, [locale, ttsSupported])
 
   const stopSpeaking = useCallback(() => {
